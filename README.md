@@ -26,8 +26,8 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 Used to reset default values of elements on a webpage.
 
-- Implemented by the selector `*`
+> Implemented by the selector `*`
 
-_Inheritance_
+-_Inheritance_
 
 Demonstated through the use a the `body` selector, inheritance allows for the commencing elements to be given the same properties as their parent `body`.
