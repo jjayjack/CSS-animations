@@ -12,6 +12,8 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 [Clip-path](#clip-path)
 
+[Positioning](#positioning)
+
 [Video Background](#video-background)
 
 [Animations on Hover & Click](#animations)
@@ -49,6 +51,12 @@ Used to set up a shape in which the image is still visible. Define shape by what
 In this project, a polygon was selected so the x and y coordinates defined the area that was still visible to the user. To begin, the first x and y will define starting location and moving clockwise each x and y will define how they relate to the previous x and y.
 
 `clip-path: polygon(x y, x y, x y, x y)`
+
+---
+
+### **Positioning**
+
+Used to define where an element will display. Within this project, absolute positioning was set up for the Logo image. The positioning structure of top and left is dependent on the parent element's _relative_ position, this sets the origin position that will define where the child element is presented.
 
 ---
 
