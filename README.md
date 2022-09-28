@@ -2,14 +2,24 @@
 
 ## Overview
 
-Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-css-course) , this is my version while working through the courses that correlate to the topics. This project will create a single landing page for a user to explore available services and be prompted purchase a service.
+Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-css-course), this is my version while working through the courses that correlate to the topics. This project will create a single landing page for a user to explore available services and be prompted to purchase a service.
+
+---
 
 ## Key Features
 
-**Video Background**
+[Universal Selector](#universal-selector)
 
-**Animations on Hover & Click**
+[Clip-path](#clip-path)
 
-**Form Input**
+[Video Background](#video-background)
 
-**Navigation with Scroll**
+[Animations on Hover & Click](#animations)
+
+[Form Input](#form)
+
+[Navigation with Scroll](#navigation)
+
+---
+
+### Universal Selector
