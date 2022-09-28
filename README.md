@@ -12,7 +12,9 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 [Clip-path](#clip-path)
 
-[Positioning](#positioning)
+[Position](#position)
+
+[Transform](#transform)
 
 [Video Background](#video-background)
 
@@ -54,9 +56,15 @@ In this project, a polygon was selected so the x and y coordinates defined the a
 
 ---
 
-### **Positioning**
+### **Position**
 
 Used to define where an element will display. Within this project, absolute positioning was set up for the Logo image. The positioning structure of top and left is dependent on the parent element's _relative_ position, this sets the origin position that will define where the child element is presented.
+
+---
+
+### Transform
+
+Used to modify an elements default properties in layout, sizing/scale, and rotation.
 
 ---
 
