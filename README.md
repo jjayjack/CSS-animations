@@ -68,6 +68,12 @@ Used to modify an elements default properties in layout, sizing/scale, and rotat
 
 ---
 
+### Animations on Hover & Click
+
+To start with adding animations a new item is created that will hold the behavior. This is the `@keyframes`. Once called upon, a custom name is chosen and _time_ components are declared with behaviors (0% and 100%). **Note: for browser performance: it's best to only ever animate _two_ different properties**
+
+---
+
 ### Resources
 
 1. [Clip-path](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
