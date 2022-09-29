@@ -4,6 +4,28 @@
 
 Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-css-course), this is my version while working through the courses that correlate to the topics. This project will create a single landing page for a user to explore available services and be prompted to purchase a service.
 
+**Main CSS Value Concepts**
+
+- Each property has an initial value, used if nothing is declared
+
+  - and if there is not inheritance
+
+- Browsers specify a _root_ font-size for each page (usually 16 px)
+
+- Percentages and relative values are always converted to pixels
+
+- Percentages are measured relative to their parents's **font-size**, if used to specify font-size
+
+- Percentages are measured relative to their parent's \*_width_, if used to specify lengths
+
+- em are measured relative to their **parent** font-size, if used to specify font-size
+
+- em are measured relative to the **current** font-size, if used to specify lengths
+
+- rem are always measured relative to the **document's root** font-size
+
+- vh and vw are simply percentage measurements of the viewport's height and width
+
 ---
 
 ## Key Features
