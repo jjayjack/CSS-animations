@@ -24,6 +24,8 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 - rem are always measured relative to the **document's root** font-size
 
+  - _For this project we have set the root font-size to be 10px, 10px now = 1rem_
+
 - vh and vw are simply percentage measurements of the viewport's height and width
 
 ---
