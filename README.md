@@ -4,7 +4,67 @@
 
 Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-css-course), this is my version while working through the courses that correlate to the topics. This project will create a single landing page for a user to explore available services and be prompted to purchase a service.
 
-**Main CSS Value Concepts**
+---
+
+## Key Features
+
+[Main Concepts](#main-concepts)
+
+[Universal Selector](#universal-selector)
+
+[Clip-path](#clip-path)
+
+[Position](#position)
+
+[Transform](#transform)
+
+[Video Background](#video-background)
+
+[Animations on Hover & Click](#animations)
+
+[Form Input](#form)
+
+[Navigation with Scroll](#navigation)
+
+[Resources](#resources)
+
+---
+
+### Main CSS Value Concepts
+
+-   The Visual Formatting Model
+
+    -   Algorithm that calculates boxes and determines the layout of these boxes, for each element in the render tree, in order to determine the final layout of the page.
+
+    -   Takes into account
+
+        -   **Dimensions of the boxes**: the box model
+
+            -   Content: text, images, etc.
+
+            -   Padding: transparent area around the content, inside of the box _~ generate white space of the box_
+
+            -   Border: goes around the padding and the content
+
+            -   Margin: white space between boxes
+
+            -   Fill area: area that gets filled with background color or background image
+
+            -   _Define height & width_
+
+                -   **total width** = right border + right padding + specific width + left padding + left border
+
+                -   **total height** = top border + top padding + specified height + bottom padding + bottom margin
+
+        -   **Box Type**: inline, block and inline-block
+
+        -   **Positioning Scheme**: floats and position
+
+        -   **Stacking contexts**
+
+        -   Other elements in the render tree
+
+        -   External information: Viewport size, dimensions of images, etc.
 
 -   Each property has an initial value, used if nothing is declared
 
@@ -32,26 +92,6 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 ---
 
-## Key Features
-
-[Universal Selector](#universal-selector)
-
-[Clip-path](#clip-path)
-
-[Position](#position)
-
-[Transform](#transform)
-
-[Video Background](#video-background)
-
-[Animations on Hover & Click](#animations)
-
-[Form Input](#form)
-
-[Navigation with Scroll](#navigation)
-
-[Resources](#resources)
-
 ---
 
 ### **Universal Selector**
@@ -64,11 +104,11 @@ Used to reset default values of elements on a webpage.
 
 For this project, demonstated through the use a the `body` selector, inheritance allows for the commencing elements to be given the same properties as their parent `body`. Used to define
 
-    - font-family
-    - font-weight
-    - font-size
-    - line-height
-    - color
+-   font-family
+-   font-weight
+-   font-size
+-   line-height
+-   color
 
 Key points for understanding Inheritance
 
