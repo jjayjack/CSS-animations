@@ -20,6 +20,8 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 [Transform](#transform)
 
+[SASS](#sass)
+
 [Video Background](#video-background)
 
 [Animations on Hover & Click](#animations)
@@ -219,6 +221,58 @@ Used to define where an element will display. Within this project, absolute posi
 ### **Transform**
 
 Used to modify an elements default properties in layout, sizing/scale, and rotation.
+
+---
+
+### **SASS**
+
+What it is: CSS preprocessor, extension of CSS that adds power and elegance to the basic language
+
+-   Main SASS Features:
+
+    1. Variables: for reusable values such as colors, font-sizes, spacing, etc.
+
+    2. Nesting: to nest selectors inside of one another, allowing us to write less code
+
+    3. Operators: for mathematical operations right inside of CSS
+
+    4. Partials and imports: to write CSS in different files and importing them all into one single file
+
+    5. Mixins: to write reusable pieces of CSS code
+
+    6. Functions: similar to mixins, with the difference that they produce a value that can then be used
+
+    7. Extends: to make different selectors inherit declarations that are common to all of them
+
+    8. Control directives: for writing complex code using conditionals and loops -- writing frameworks
+
+**Syntaxes**
+
+1. Sass Syntax
+
+```
+.navigation
+  list-style: none
+  float: left
+
+  & li
+    display: inline-block
+    margin-left: 30px
+```
+
+2. SCSS Syntax
+
+```
+.navigation{
+  list-style: none;
+  float: left;
+
+  & li{
+    display: inline-block;
+    margin-left: 30px;
+  }
+}
+```
 
 ---
 
