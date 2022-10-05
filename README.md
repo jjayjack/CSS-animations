@@ -10,6 +10,8 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 [Main Concepts](#main-concepts)
 
+[The Visual Formatting Model](#the-visual-formatting-model)
+
 [Universal Selector](#universal-selector)
 
 [Clip-path](#clip-path)
@@ -30,113 +32,7 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 ---
 
-### Main CSS Value Concepts
-
--   The Visual Formatting Model
-
-    -   Algorithm that calculates boxes and determines the layout of these boxes, for each element in the render tree, in order to determine the final layout of the page.
-
-    -   Takes into account
-
-        -   **Dimensions of the boxes**: the box model
-
-            -   Content: text, images, etc.
-
-            -   Padding: transparent area around the content, inside of the box _~ generate white space of the box_
-
-            -   Border: goes around the padding and the content
-
-            -   Margin: white space between boxes
-
-            -   Fill area: area that gets filled with background color or background image
-
-            -   _Define height & width_
-
-                -   **total width** = right border + right padding + specific width + left padding + left border
-
-                -   **total height** = top border + top padding + specified height + bottom padding + bottom margin
-
-                -   **border-box** = specified height
-
-        -   **Box Types**: inline, block and inline-block
-
-            -   Inline boxes:
-
-                -   Content is distributed in lines
-
-                -   Occupies only content's space
-
-                -   No line-breaks
-
-                -   No heights and widths
-
-                -   Paddings and margins only horizontal (left & right)
-
-            -   Block-level boxes:
-
-                -   Elements formatted visually as blocks
-
-                -   100% of parent's width
-
-                -   Vertically, one after another
-
-            -   Inline-block boxes:
-
-                -   A mix of block and inline
-
-                -   Occupies only content's space
-
-                -   No line-breaks
-
-        -   **Positioning Scheme**: floats and position
-
-            -   Normal flow:
-
-                -   Default positioning scheme
-
-                -   **NOT** floated
-
-                -   **NOT** absolutely positioned
-
-                -   Elements laid out according to their source order
-
-            -   Floats:
-
-                -   **Element is removed from the normal flow**
-
-                -   Text and inline elements will wrap around the floated element
-
-                -   The container will not adjust its height to the element
-
-            -   Absolute positioning:
-
-                -   **Element is removed from the normal flow**
-
-                -   No impact on surrounding content or elements
-
-                -   We use _top_, _bottom_, _left_ and _right_ to offset the element from its relatively positioned container
-
-        -   **Stacking contexts**: order of rendered elements
-
-            -   Layers that form a stack
-
-                -   Layers on the bottom of the stack appear at first
-
-                -   Elements higher up the stack appear on top
-
-            -   Examples of properties that create new stacking context
-
-                -   Z-index
-
-                -   Opacity Value
-
-                -   Transform
-
-                -   Filter
-
-        -   Other elements in the render tree
-
-        -   External information: Viewport size, dimensions of images, etc.
+### **Main CSS Value Concepts**
 
 -   Each property has an initial value, used if nothing is declared
 
@@ -163,6 +59,112 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 -   vh and vw are simply percentage measurements of the viewport's height and width
 
 ---
+
+### **The Visual Formatting Model**
+
+-   Algorithm that calculates boxes and determines the layout of these boxes, for each element in the render tree, in order to determine the final layout of the page.
+
+-   Takes into account
+
+    -   **Dimensions of the boxes**: the box model
+
+        -   Content: text, images, etc.
+
+        -   Padding: transparent area around the content, inside of the box _~ generate white space of the box_
+
+        -   Border: goes around the padding and the content
+
+        -   Margin: white space between boxes
+
+        -   Fill area: area that gets filled with background color or background image
+
+        -   _Define height & width_
+
+            -   **total width** = right border + right padding + specific width + left padding + left border
+
+            -   **total height** = top border + top padding + specified height + bottom padding + bottom margin
+
+            -   **border-box** = specified height
+
+    -   **Box Types**: inline, block and inline-block
+
+        -   Inline boxes:
+
+            -   Content is distributed in lines
+
+            -   Occupies only content's space
+
+            -   No line-breaks
+
+            -   No heights and widths
+
+            -   Paddings and margins only horizontal (left & right)
+
+        -   Block-level boxes:
+
+            -   Elements formatted visually as blocks
+
+            -   100% of parent's width
+
+            -   Vertically, one after another
+
+        -   Inline-block boxes:
+
+            -   A mix of block and inline
+
+            -   Occupies only content's space
+
+            -   No line-breaks
+
+    -   **Positioning Scheme**: floats and position
+
+        -   Normal flow:
+
+            -   Default positioning scheme
+
+            -   **NOT** floated
+
+            -   **NOT** absolutely positioned
+
+            -   Elements laid out according to their source order
+
+        -   Floats:
+
+            -   **Element is removed from the normal flow**
+
+            -   Text and inline elements will wrap around the floated element
+
+            -   The container will not adjust its height to the element
+
+        -   Absolute positioning:
+
+            -   **Element is removed from the normal flow**
+
+            -   No impact on surrounding content or elements
+
+            -   We use _top_, _bottom_, _left_ and _right_ to offset the element from its relatively positioned container
+
+    -   **Stacking contexts**: order of rendered elements
+
+        -   Layers that form a stack
+
+            -   Layers on the bottom of the stack appear at first
+
+            -   Elements higher up the stack appear on top
+
+        -   Examples of properties that create new stacking context
+
+            -   Z-index
+
+            -   Opacity Value
+
+            -   Transform
+
+            -   Filter
+
+    -   Other elements in the render tree
+
+    -   External information: Viewport size, dimensions of images, etc.
 
 ---
 
@@ -214,19 +216,19 @@ Used to define where an element will display. Within this project, absolute posi
 
 ---
 
-### Transform
+### **Transform**
 
 Used to modify an elements default properties in layout, sizing/scale, and rotation.
 
 ---
 
-### Animations on Hover & Click
+### **Animations on Hover & Click**
 
 To start with adding animations a new item is created that will hold the behavior. This is the `@keyframes`. Once called upon, a custom name is chosen and _time_ components are declared with behaviors (0% and 100%). **Note: for browser performance: it's best to only ever animate _two_ different properties**
 
 ---
 
-### Resources
+### **Resources**
 
 1. [Clip-path](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
 
