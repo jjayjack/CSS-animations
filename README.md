@@ -6,27 +6,29 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 **Main CSS Value Concepts**
 
-- Each property has an initial value, used if nothing is declared
+-   Each property has an initial value, used if nothing is declared
 
-  - and if there is not inheritance
+    -   and if there is not inheritance
 
-- Browsers specify a _root_ font-size for each page (usually 16 px)
+-   Browsers specify a _root_ font-size for each page (usually 16 px)
 
-- Percentages and relative values are always converted to pixels
+    -   _To increase accessibility of the project, we have converted root font-size to percentage for user's browser set defaults to automatically adjust readability_
 
-- Percentages are measured relative to their parents's **font-size**, if used to specify font-size
+-   Percentages and relative values are always converted to pixels
 
-- Percentages are measured relative to their parent's \*_width_, if used to specify lengths
+-   Percentages are measured relative to their parents's **font-size**, if used to specify font-size
 
-- em are measured relative to their **parent** font-size, if used to specify font-size
+-   Percentages are measured relative to their parent's \*_width_, if used to specify lengths
 
-- em are measured relative to the **current** font-size, if used to specify lengths
+-   em are measured relative to their **parent** font-size, if used to specify font-size
 
-- rem are always measured relative to the **document's root** font-size
+-   em are measured relative to the **current** font-size, if used to specify lengths
 
-  - _For this project we have set the root font-size to be 10px, 10px now = 1rem_
+-   rem are always measured relative to the **document's root** font-size
 
-- vh and vw are simply percentage measurements of the viewport's height and width
+    -   _For this project we have set the root font-size to be 10px, 10px now = 1rem_
+
+-   vh and vw are simply percentage measurements of the viewport's height and width
 
 ---
 
@@ -70,17 +72,17 @@ For this project, demonstated through the use a the `body` selector, inheritance
 
 Key points for understanding Inheritance
 
-- Inheritance passes the values for some specific properties from parents to child which allows for **more maintainable code**
+-   Inheritance passes the values for some specific properties from parents to child which allows for **more maintainable code**
 
-- Properties related to text are inherited: _font-family_, _font-size_, _color_, etc.
+-   Properties related to text are inherited: _font-family_, _font-size_, _color_, etc.
 
-- The computed value of a property is what gets inherited, **not** the declared value.
+-   The computed value of a property is what gets inherited, **not** the declared value.
 
-- Inheritance of a property only works if no one declares a value for that property.
+-   Inheritance of a property only works if no one declares a value for that property.
 
-- The `inherit` keyword forces inheritance on a certain property.
+-   The `inherit` keyword forces inheritance on a certain property.
 
-- The `initial` keyword resets a property to its initial value.
+-   The `initial` keyword resets a property to its initial value.
 
 ---
 
