@@ -58,13 +58,27 @@ Used to reset default values of elements on a webpage.
 
 -_Inheritance_
 
-Demonstated through the use a the `body` selector, inheritance allows for the commencing elements to be given the same properties as their parent `body`. Used to define
+For this project, demonstated through the use a the `body` selector, inheritance allows for the commencing elements to be given the same properties as their parent `body`. Used to define
 
     - font-family
     - font-weight
     - font-size
     - line-height
     - color
+
+Key points for understanding Inheritance
+
+- Inheritance passes the values for some specific properties from parents to child which allows for **more maintainable code**
+
+- Properties related to text are inherited: _font-family_, _font-size_, _color_, etc.
+
+- The computed value of a property is what gets inherited, **not** the declared value.
+
+- Inheritance of a property only works if no one declares a value for that property.
+
+- The `inherit` keyword forces inheritance on a certain property.
+
+- The `initial` keyword resets a property to its initial value.
 
 ---
 
