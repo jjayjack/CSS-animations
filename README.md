@@ -56,11 +56,83 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
                 -   **total height** = top border + top padding + specified height + bottom padding + bottom margin
 
-        -   **Box Type**: inline, block and inline-block
+                -   **border-box** = specified height
+
+        -   **Box Types**: inline, block and inline-block
+
+            -   Inline boxes:
+
+                -   Content is distributed in lines
+
+                -   Occupies only content's space
+
+                -   No line-breaks
+
+                -   No heights and widths
+
+                -   Paddings and margins only horizontal (left & right)
+
+            -   Block-level boxes:
+
+                -   Elements formatted visually as blocks
+
+                -   100% of parent's width
+
+                -   Vertically, one after another
+
+            -   Inline-block boxes:
+
+                -   A mix of block and inline
+
+                -   Occupies only content's space
+
+                -   No line-breaks
 
         -   **Positioning Scheme**: floats and position
 
-        -   **Stacking contexts**
+            -   Normal flow:
+
+                -   Default positioning scheme
+
+                -   **NOT** floated
+
+                -   **NOT** absolutely positioned
+
+                -   Elements laid out according to their source order
+
+            -   Floats:
+
+                -   **Element is removed from the normal flow**
+
+                -   Text and inline elements will wrap around the floated element
+
+                -   The container will not adjust its height to the element
+
+            -   Absolute positioning:
+
+                -   **Element is removed from the normal flow**
+
+                -   No impact on surrounding content or elements
+
+                -   We use _top_, _bottom_, _left_ and _right_ to offset the element from its relatively positioned container
+
+        -   **Stacking contexts**: order of rendered elements
+
+            -   Layers that form a stack
+
+                -   Layers on the bottom of the stack appear at first
+
+                -   Elements higher up the stack appear on top
+
+            -   Examples of properties that create new stacking context
+
+                -   Z-index
+
+                -   Opacity Value
+
+                -   Transform
+
+                -   Filter
 
         -   Other elements in the render tree
 
