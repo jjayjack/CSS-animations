@@ -67,26 +67,26 @@ body {
 
 	backface-visibility: hidden;
 	margin-bottom: 6rem;
-}
 
-.heading-primary--main {
-	display: block;
-	font-size: 6rem;
-	font-weight: 400;
-	letter-spacing: 3.5rem;
+	&--main {
+		display: block;
+		font-size: 6rem;
+		font-weight: 400;
+		letter-spacing: 3.5rem;
 
-	animation-name: moveInLeft;
-	animation-duration: 1s;
-	animation-timing-function: ease-out;
-}
+		animation-name: moveInLeft;
+		animation-duration: 1s;
+		animation-timing-function: ease-out;
+	}
 
-.heading-primary--sub {
-	display: block;
-	font-size: 2rem;
-	font-weight: 700;
-	letter-spacing: 1.75rem;
+	&--sub {
+		display: block;
+		font-size: 2rem;
+		font-weight: 700;
+		letter-spacing: 1.75rem;
 
-	animation: moveInRight 1s ease-out;
+		animation: moveInRight 1s ease-out;
+	}
 }
 
 @keyframes moveInLeft {
