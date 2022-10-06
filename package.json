@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jjayjack/CSS-animations/issues"
   },
-  "homepage": "https://github.com/jjayjack/CSS-animations#readme"
+  "homepage": "https://github.com/jjayjack/CSS-animations#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
 }
