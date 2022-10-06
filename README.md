@@ -24,11 +24,13 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 [Video Background](#video-background)
 
-[Animations on Hover & Click](#animations)
+[Animations on Hover & Click](#animations-on-hover-&-click)
 
 [Form Input](#form)
 
 [Navigation with Scroll](#navigation)
+
+[Responsive Design Principles](#responsive-design-principles)
 
 [Resources](#resources)
 
@@ -283,6 +285,56 @@ What it is: CSS preprocessor, extension of CSS that adds power and elegance to t
 ### **Animations on Hover & Click**
 
 To start with adding animations a new item is created that will hold the behavior. This is the `@keyframes`. Once called upon, a custom name is chosen and _time_ components are declared with behaviors (0% and 100%). **Note: for browser performance: it's best to only ever animate _two_ different properties**
+
+---
+
+### **Responsive Design Principles**
+
+1. Fluid Layouts
+
+    - To allow webpage to adapt to the current viewport width (or even height)
+
+    - Use `%` (or `vh` / `vw`) unit instead of `px` for elements that should _adapt_ to viewport (usually layout)
+
+    - Use `max-width` instead of width
+
+    - 3 Major ways to layout web pages:
+
+        1. Float Layouts
+
+            The _old way of building layout_ of all sizes, using the float CSS property
+
+            Still used, but getting outdated.
+
+            **The focus of this project is on using modern CSS properties and techniques**: clips, transforms, animations, background video, etc. NOT on layout. Even though flexbox and CSS Grid are more modern, _every web developer should still know how float layouts work_.
+
+        2. Flexbox
+
+            Modern way of laying out elements in a _1-dimensional row_ without using floats.
+
+            Perfect for **component layouts**
+
+        3. CSS Grid
+
+            For laying out element in a fully-fledged _2-dimensional grid_.
+
+            Perfect for **page layouts and complex components**
+
+2. Responsive Units
+
+    - Use `rem` unit instead of `px` for most lengths
+
+    - To make it easy to scale the entire layout down (or up) automatically
+
+3. Flexible Images
+
+    - By default, images don't scale automatically as we change the viewport, so we need to fix that
+
+    - Always use `%` for image dimensions, together with the `max-width` property
+
+4. Media Queries
+
+    - To change CSS styles on certain viewport widths (**breakpoints**)
 
 ---
 
