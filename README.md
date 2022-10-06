@@ -232,7 +232,11 @@ What it is: CSS preprocessor, extension of CSS that adds power and elegance to t
 
     1. Variables: for reusable values such as colors, font-sizes, spacing, etc.
 
+        - Defined by use of `$` before name of variable
+
     2. Nesting: to nest selectors inside of one another, allowing us to write less code
+
+        - Use of `&` indicates of a nesting child that is placed within a parent for CSS properties
 
     3. Operators: for mathematical operations right inside of CSS
 
