@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for Natours Project; Advanced CSS and Sass with Jonas Schmedtmann",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjayjack/CSS-animations.git"
+  },
+  "keywords": [
+    "CSS",
+    "SASS"
+  ],
+  "author": "Jocelyn Jayjack; cc: Jonas Schmedtmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjayjack/CSS-animations/issues"
+  },
+  "homepage": "https://github.com/jjayjack/CSS-animations#readme"
+}
