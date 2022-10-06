@@ -2,6 +2,11 @@ $color-primary: rgb(126, 213, 111);
 $color-primary-light: rgb(85, 197, 122);
 $color-primary-dark: rgb(40, 180, 133);
 
+$color-grey-dark: #777;
+$color-white: #fff;
+
+$color-box-shadow: rgba(0, 0, 0, 0.2);
+
 *,
 *::after,
 *::before {
@@ -17,9 +22,8 @@ html {
 body {
 	font-family: 'Lato', 'sans-serif';
 	font-weight: 400;
-	/* font-size: 16px; */
 	line-height: 1.7;
-	color: #777;
+	color: $color-grey-dark;
 	padding: 3rem;
 	box-sizing: border-box;
 }
@@ -58,7 +62,7 @@ body {
 }
 
 .heading-primary {
-	color: #fff;
+	color: $color-white;
 	text-transform: uppercase;
 
 	backface-visibility: hidden;
@@ -74,11 +78,6 @@ body {
 	animation-name: moveInLeft;
 	animation-duration: 1s;
 	animation-timing-function: ease-out;
-
-	/* animation-delay: 3s; 
-	animation-iteration-count: 3;
-	
-	*/
 }
 
 .heading-primary--sub {
@@ -144,18 +143,18 @@ body {
 
 .btn:hover {
 	transform: translateY(-3px);
-	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1rem 2rem $color-box-shadow;
 }
 
 .btn:active {
 	transform: translateY(-1px);
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0.5rem 1rem $color-box-shadow;
 }
 
 .btn--white,
 .btn--white::after {
-	background-color: #fff;
-	color: #777;
+	background-color: $color-white;
+	color: $color-grey-dark;
 }
 
 .btn::after {
