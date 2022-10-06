@@ -1,4 +1,13 @@
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/animations';
 @import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+@import 'pages/home';
 
 $color-primary: rgb(126, 213, 111);
 $color-primary-light: rgb(85, 197, 122);
