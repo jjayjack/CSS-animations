@@ -209,6 +209,23 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem; }
+  .card__side {
+    background-color: teal;
+    color: orange;
+    font-size: 2rem;
+    height: 50rem;
+    transition: all 0.8s; }
+    .card__side--front {
+      background-color: yellow; }
+    .card__side--back {
+      background-color: white;
+      transform: rotateY(180deg); }
+  .card:hover .card__side {
+    transform: rotateY(180deg); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
