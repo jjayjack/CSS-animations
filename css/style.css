@@ -379,3 +379,8 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
+
+.section-stories {
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+  background-size: cover;
+  padding: 15rem 0; }
