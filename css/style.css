@@ -115,7 +115,7 @@ body {
   text-decoration: none;
   padding: 1.5rem 4rem;
   display: inline-block;
-  border-radius: 10rem;
+  border-radius: 5rem;
   transition: all 0.2s;
   position: relative; }
 
@@ -147,7 +147,7 @@ body {
   display: inline-block;
   height: 100%;
   width: 100%;
-  border-radius: 10rem;
+  border-radius: 5rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -208,7 +208,7 @@ body {
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
-  border-radius: 1px;
+  border-radius: 0.5rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform 0.3s; }
   .feature-box__icon {
@@ -236,7 +236,7 @@ body {
     width: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-radius: 3px;
+    border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
@@ -320,7 +320,7 @@ body {
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.15);
   background-color: rgba(247, 247, 247, 0.5);
-  border-radius: 3px;
+  border-radius: 0.5rem;
   padding: 6rem;
   padding-left: 9rem;
   font-size: 1.6rem;
@@ -452,4 +452,5 @@ body {
 
 .book {
   background-image: url(../img/nat-10.jpg);
-  background-size: cover; }
+  background-size: cover;
+  border-radius: 0.5rem; }
