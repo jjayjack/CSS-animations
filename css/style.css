@@ -208,7 +208,7 @@ body {
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform 0.3s; }
   .feature-box__icon {
@@ -236,7 +236,7 @@ body {
     width: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
@@ -320,7 +320,7 @@ body {
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.15);
   background-color: rgba(247, 247, 247, 0.5);
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   padding: 6rem;
   padding-left: 9rem;
   font-size: 1.6rem;
@@ -374,6 +374,25 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover; }
+
+.form__group:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.form__input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 90%;
+  display: block; }
+
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #55c57a; }
 
 .row {
   max-width: 114rem;
@@ -453,7 +472,7 @@ body {
 .book {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
   background-size: cover;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.69);
   height: 50rem; }
   .book__form {
