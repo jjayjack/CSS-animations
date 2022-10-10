@@ -45,4 +45,21 @@
 		visibility: hidden;
 		transform: translateY(-4rem);
 	}
+
+	&__radio {
+		&-group {
+			width: 49%;
+			display: inline-block;
+		}
+		&-input {
+		}
+
+		&-label {
+			font-size: $default-font-size;
+			cursor: pointer;
+		}
+
+		&-button {
+		}
+	}
 }
