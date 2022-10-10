@@ -6,7 +6,7 @@
 		text-decoration: none;
 		padding: 1.5rem 4rem;
 		display: inline-block;
-		border-radius: 10rem;
+		border-radius: $btn-border-radius;
 		transition: all 0.2s;
 		position: relative;
 	}
@@ -49,7 +49,7 @@
 		display: inline-block;
 		height: 100%;
 		width: 100%;
-		border-radius: 10rem;
+		border-radius: $btn-border-radius;
 		position: absolute;
 		top: 0;
 		left: 0;
