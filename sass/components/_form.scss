@@ -72,6 +72,16 @@
 			top: 0;
 
 			&::after {
+				content: '';
+				display: block;
+				height: 1.3rem;
+				width: 1.3rem;
+				border-radius: 50%;
+				position: absolute;
+				top: 20%;
+				left: 50%;
+				transform: translate(-50%);
+				background-color: $color-primary;
 			}
 		}
 	}
