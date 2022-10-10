@@ -403,7 +403,13 @@ body {
   font-weight: 700;
   margin-left: 2rem;
   margin-top: 0.7re;
-  display: block; }
+  display: block;
+  transition: all 0.2s; }
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem); }
 
 .row {
   max-width: 114rem;

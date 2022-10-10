@@ -36,5 +36,12 @@
 		margin-left: 2rem;
 		margin-top: 0.7re;
 		display: block;
+		transition: all 0.2s;
+	}
+
+	&__input:placeholder-shown + &__label {
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(-4rem);
 	}
 }
