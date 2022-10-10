@@ -28,12 +28,7 @@
 }
 
 .section-stories {
-	background-image: linear-gradient(
-		to right bottom,
-		rgba($color-primary-light, 0.8),
-		rgba($color-primary-dark, 0.8)
-	);
-	background-size: cover;
 	padding: 15rem 0;
 	text-align: center;
+	position: relative;
 }
