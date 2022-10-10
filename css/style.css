@@ -360,6 +360,15 @@ body {
     transform: translateX(-3.5rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.15; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -427,7 +436,6 @@ body {
   margin-top: -10rem; }
 
 .section-stories {
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
-  background-size: cover;
   padding: 15rem 0;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
