@@ -454,4 +454,5 @@ body {
   background-image: url(../img/nat-10.jpg);
   background-size: cover;
   border-radius: 0.5rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.69);
   height: 50rem; }
