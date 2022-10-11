@@ -539,6 +539,16 @@ body {
     width: 80%;
     float: right; }
 
+.navigation__button {
+  background-color: white;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 6rem;
+  right: 6rem;
+  z-index: 2000; }
+
 .navigation__background {
   height: 6rem;
   width: 6rem;
