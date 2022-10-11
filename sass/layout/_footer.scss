@@ -36,6 +36,12 @@
 			text-transform: uppercase;
 			display: inline-block;
 		}
+
+		&:hover,
+		&:active {
+			color: $color-primary;
+			box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+		}
 	}
 
 	// &__copyright {
