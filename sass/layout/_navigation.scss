@@ -1,5 +1,7 @@
 .navigation {
-	// &__checkbox{}
+	&__checkbox {
+		display: none;
+	}
 
 	&__button {
 		background-color: $color-white;
