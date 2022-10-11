@@ -503,6 +503,7 @@ body {
 
 .footer {
   background-color: #333333;
+  color: #f7f7f7;
   padding: 10rem 0;
   font-size: 1.4rem; }
   .footer__logo-box {
@@ -522,7 +523,6 @@ body {
     .footer__item:not(:last-child) {
       margin-right: 0.5rem; }
   .footer__link:link, .footer__link:visited {
-    color: #f7f7f7;
     background-color: #333333;
     text-decoration: none;
     text-transform: uppercase;
