@@ -471,17 +471,17 @@ body {
     width: 75%;
     background-color: white;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
-    border-radius: 0.2rem; }
+    border-radius: 0.2rem;
+    display: table; }
   .pop-up__left {
     width: 33.333333%;
-    float: left; }
+    display: table-cell; }
   .pop-up__img {
     display: block;
-    width: 100%;
-    float: left; }
+    width: 100%; }
   .pop-up__right {
     width: 66.666666%;
-    float: right; }
+    display: table-cell; }
 
 .row {
   max-width: 114rem;
