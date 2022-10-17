@@ -6,7 +6,6 @@
 	left: 0;
 	background-color: rgba($color-black, 0.8);
 	z-index: 9999;
-	text-align: center;
 
 	&__content {
 		@include absoluteCenter;
@@ -31,6 +30,7 @@
 	&__right {
 		width: 66.666666%;
 		display: table-cell;
+		vertical-align: middle;
 	}
 
 	&__text {
