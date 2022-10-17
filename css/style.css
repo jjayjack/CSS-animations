@@ -471,7 +471,8 @@ body {
     background-color: white;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 0.2rem;
-    display: table; }
+    display: table;
+    overflow: hidden; }
   .pop-up__left {
     width: 33.333333%;
     display: table-cell; }
@@ -481,7 +482,11 @@ body {
   .pop-up__right {
     width: 66.666666%;
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    padding: 3rem 5rem; }
+  .pop-up__text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem; }
 
 .row {
   max-width: 114rem;
