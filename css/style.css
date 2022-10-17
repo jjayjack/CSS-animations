@@ -469,10 +469,19 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 75%;
-    height: 50rem;
     background-color: white;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 0.2rem; }
+  .pop-up__left {
+    width: 33.333333%;
+    float: left; }
+  .pop-up__img {
+    display: block;
+    width: 100%;
+    float: left; }
+  .pop-up__right {
+    width: 66.666666%;
+    float: right; }
 
 .row {
   max-width: 114rem;
