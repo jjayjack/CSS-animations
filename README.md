@@ -344,6 +344,10 @@ To start with adding animations a new item is created that will hold the behavio
 
 2. [Clippy Clip-Path](https://bennettfeely.com/clippy)
 
-3. [Node](npm.com)
+3. [Node](https://npmjs.com)
 
 4. [Node-Sass](https://www.npmjs.com/package/node-sass)
+
+5. [Easing Functions](https://easings.net)
+
+6. [Custom Easing Function Tester](https://cubic-bezier.com)
