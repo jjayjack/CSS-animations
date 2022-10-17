@@ -565,11 +565,12 @@ body {
 
 .navigation__nav {
   height: 100vh;
-  width: 100%;
+  width: 0;
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1500; }
+  z-index: 1500;
+  opacity: 0; }
 
 .navigation__list {
   position: absolute;
