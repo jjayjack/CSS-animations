@@ -487,9 +487,15 @@ body {
   .pop-up__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
+    -moz-column-count: 2;
+    -moz-column-gap: 4rem;
+    -moz-column-rule: 1px solid #eeeeee;
     column-count: 2;
     column-gap: 4rem;
     column-rule: 1px solid #eeeeee;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
     hyphens: auto; }
 
 .row {
