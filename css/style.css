@@ -113,6 +113,13 @@ body {
   color: transparent;
   letter-spacing: 2px;
   transition: all 0.2s; }
+  @media (max-width: 56.25em) {
+    .heading-secondary {
+      font-size: 3rem; } }
+  @media (max-width: 37.5em) {
+    .heading-secondary {
+      font-size: 2.5rem;
+      letter-spacing: 0; } }
   .heading-secondary:hover {
     transform: skewY(1.5deg) skewX(1.5deg) scale(1.15);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }

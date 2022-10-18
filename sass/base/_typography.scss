@@ -58,6 +58,15 @@ body {
 	letter-spacing: 2px;
 	transition: all 0.2s;
 
+	@include respond(tablet-portrait) {
+		font-size: 3rem;
+	}
+
+	@include respond(phone) {
+		font-size: 2.5rem;
+		letter-spacing: 0;
+	}
+
 	&:hover {
 		transform: skewY(1.5deg) skewX(1.5deg) scale(1.15);
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
