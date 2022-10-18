@@ -345,7 +345,7 @@ Two ways to think about making responsive designs. "No matter what you decide, a
 
     width <= 900px
 
-2.  Start with CSS for mobile screen then expand design to larger screens - min-width set for larger screen sizes.
+2.  Start with CSS for mobile screen then expand design to larger screens - min-width set for larger screen sizes. Overlapping sizes must be smaller then larger as first statement will take precident.
 
     Focus to pinpoint what are the _fundamental_ components of the application.
 
