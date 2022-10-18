@@ -334,6 +334,31 @@ To start with adding animations a new item is created that will hold the behavio
 
 ### Media Queries
 
+Media queries provide a way to override specific parts of CSS for viewport width. Media queries order of code is read top down so they must be placed at the end of CSS.
+Two ways to think about making responsive designs. "No matter what you decide, always keep both desktop and mobile in mind [when designing an application]."
+
+1.  Start with CSS for desktop then shrink to smaller screens - max-width set for smaller screen sizes.
+
+    `max-width: 900px`
+
+    width <= 900px
+
+2.  Start with CSS for mobile screen then expand design to larger screens - min-width set for larger screen sizes.
+
+    Focus to pinpoint what are the _fundamental_ components of the application.
+
+    `min-width: 900px`
+
+    width >= 900px
+
+**Selecting Breakpoints**
+
+1. Width references based on most popular devices (iOS) on the current market
+
+2. Group current references together regardless of manufacturer and narrow down similar widths
+
+3. Design based on content: once desired layout breaks, make a media query to adjust layout.
+
 ---
 
 ### **Resources**
