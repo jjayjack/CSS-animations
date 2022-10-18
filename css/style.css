@@ -860,7 +860,7 @@ body {
     transform: skewY(6.7deg); }
   @media (max-width: 75em) {
     .section-features {
-      padding: 15rem 0; } }
+      padding: 10rem 0; } }
 
 .section-tours {
   background-color: #f7f7f7;
