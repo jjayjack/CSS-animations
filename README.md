@@ -246,6 +246,8 @@ What it is: CSS preprocessor, extension of CSS that adds power and elegance to t
 
     8. Control directives: for writing complex code using conditionals and loops -- writing frameworks
 
+        @if directive: checks for _true_
+
 **Syntaxes**
 
 1. Sass Syntax

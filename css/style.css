@@ -5,6 +5,13 @@
 1200-1800: desktop first style
 >=1800: big desktop
 */
+/*
+$breakpoint argument choices:
+phone
+tablet-portrait	
+tablet-landscape
+big-desktop
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -42,6 +49,9 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
   @media (max-width: 600px) {
     html {
       font-size: 50%; } }
