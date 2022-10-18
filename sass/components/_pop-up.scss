@@ -6,6 +6,8 @@
 	left: 0;
 	background-color: rgba($color-black, 0.8);
 	z-index: 9999;
+	opacity: 0;
+	visibility: hidden;
 
 	&__content {
 		@include absoluteCenter;
