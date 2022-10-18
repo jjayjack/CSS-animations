@@ -475,7 +475,10 @@ body {
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 0.2rem;
     display: table;
-    overflow: hidden; }
+    overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.2);
+    transition: all 0.5s 0.2s; }
   .pop-up__left {
     width: 33.333333%;
     display: table-cell; }
@@ -503,6 +506,9 @@ body {
   .pop-up:target {
     opacity: 1;
     visibility: visible; }
+  .pop-up:target .pop-up__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); }
   .pop-up__close:link, .pop-up__close:visited {
     color: #777777;
     position: absolute;

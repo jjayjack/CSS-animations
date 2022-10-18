@@ -19,6 +19,9 @@
 		border-radius: $default-border-radius;
 		display: table;
 		overflow: hidden;
+		opacity: 0;
+		transform: translate(-50%, -50%) scale(0.2);
+		transition: all 0.5s 0.2s;
 	}
 
 	&__left {
@@ -54,10 +57,15 @@
 		-webkit-hyphens: auto;
 		hyphens: auto;
 	}
-
+	//popup open state
 	&:target {
 		opacity: 1;
 		visibility: visible;
+	}
+
+	&:target &__content {
+		opacity: 1;
+		transform: translate(-50%, -50%) scale(1);
 	}
 
 	&__close {
