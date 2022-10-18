@@ -20,25 +20,36 @@
 900-1200: tablet landscape
 1200-1800: desktop first style
 >=1800: big desktop
-*/
 
-@mixin respond-phone {
-	@media (max-width: 600px) {
-		@content;
-	}
-}
-
-/*
 $breakpoint argument choices:
 phone
 tablet-portrait	
 tablet-landscape
 big-desktop
+
+1em = 16px
 */
 
 @mixin respond($breakpoint) {
 	@if $breakpoint == phone {
-		@media (max-width: 600px) {
+		@media (max-width: 37.5em) {
+			//600px
+			@content;
+		}
+	}
+	@if $breakpoint == tablet-portrait {
+		@media (max-width: 56.25em) {
+			@content;
+		}
+	}
+	@if $breakpoint == tablet-landscape {
+		@media (max-width: 75em) {
+			@content;
+		}
+	}
+	@if $breakpoint == big-desktop {
+		@media (min-width: 112.5em) {
+			//1800px
 			@content;
 		}
 	}

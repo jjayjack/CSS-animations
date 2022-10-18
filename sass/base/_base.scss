@@ -7,14 +7,21 @@
 }
 
 html {
+	//defines what 1rem is: 1rem = 10px: 10/16 = 62.5%
 	font-size: 62.5%;
 
-	@include respond-phone {
+	//removed redundant respond(phone)
+
+	@include respond(tablet-landscape) {
+		font-size: 56.25%;
+	}
+
+	@include respond(tablet-portrait) {
 		font-size: 50%;
 	}
 
-	@include respond(phone) {
-		font-size: 50%;
+	@include respond(big-desktop) {
+		font-size: 75%; //1rem = 12, 12/16 = 75%
 	}
 }
 
