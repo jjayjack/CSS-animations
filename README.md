@@ -8,7 +8,7 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 ## Key Features
 
-[Main Concepts](#main-concepts)
+[Main Concepts](#main-css-value-concepts)
 
 [The Visual Formatting Model](#the-visual-formatting-model)
 
@@ -16,21 +16,15 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 [Clip-path](#clip-path)
 
-[Position](#position)
-
 [Transform](#transform)
 
 [SASS](#sass)
 
-[Video Background](#video-background)
-
 [Animations on Hover & Click](#animations-on-hover-&-click)
 
-[Form Input](#form)
-
-[Navigation with Scroll](#navigation)
-
 [Responsive Design Principles](#responsive-design-principles)
+
+[Media Queries](#media-queries)
 
 [Resources](#resources)
 
@@ -335,6 +329,10 @@ To start with adding animations a new item is created that will hold the behavio
 4. Media Queries
 
     - To change CSS styles on certain viewport widths (**breakpoints**)
+
+---
+
+### Media Queries
 
 ---
 
