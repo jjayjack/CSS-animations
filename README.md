@@ -376,3 +376,5 @@ Two ways to think about making responsive designs. "No matter what you decide, a
 5. [Easing Functions](https://easings.net)
 
 6. [Custom Easing Function Tester](https://cubic-bezier.com)
+
+7. [Sizzy - online Response Testing](https://sizzy.co)
