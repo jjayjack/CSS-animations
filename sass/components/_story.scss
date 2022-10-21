@@ -15,6 +15,10 @@
 		padding-left: 7rem;
 	}
 
+	@include respond(phone) {
+		transform: skewX(0);
+	}
+
 	&__shape {
 		height: 15rem;
 		width: 15rem;
@@ -26,6 +30,10 @@
 		clip-path: circle(50% at 50% 50%);
 		transform: translateX(-3rem) skewX(12deg);
 		position: relative;
+
+		@include respond(phone) {
+			transform: translateX(-3rem) skewX(0);
+		}
 	}
 
 	&__img {
@@ -33,10 +41,18 @@
 		transform: translateX(-3.5rem) scale(1.4);
 		backface-visibility: hidden;
 		transition: all 0.5s;
+
+		@include respond(phone) {
+			transform: translateX(-3.5rem) scale(1.4);
+		}
 	}
 
 	&__text {
 		transform: skewX(12deg);
+
+		@include respond(phone) {
+			transform: skewX(0);
+		}
 	}
 	&__caption {
 		position: absolute;
