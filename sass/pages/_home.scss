@@ -87,11 +87,23 @@
 			url(../img/nat-10.jpg);
 		background-size: cover;
 	}
+
+	@include respond(tablet-portrait) {
+		background-image: linear-gradient(
+				to right,
+				rgba($color-white, 0.9) 0%,
+				rgba($color-white, 0.9) 100%
+			),
+			url(../img/nat-10.jpg);
+	}
 	&__form {
 		width: 50%;
 		padding: 6rem;
 		@include respond(tablet-landscape) {
 			width: 65%;
+		}
+		@include respond(tablet-portrait) {
+			width: 100%;
 		}
 	}
 }
