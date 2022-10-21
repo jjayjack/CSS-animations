@@ -9,6 +9,12 @@
 	font-size: $default-font-size;
 	transform: skewX(-12deg);
 
+	@include respond(tablet-portrait) {
+		width: 100%;
+		padding: 4rem;
+		padding-left: 7rem;
+	}
+
 	&__shape {
 		height: 15rem;
 		width: 15rem;
