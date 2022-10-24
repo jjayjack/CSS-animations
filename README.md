@@ -26,6 +26,8 @@ Forked from [advanced-css-course](https://github.com/jonasschmedtmann/advanced-c
 
 [Media Queries](#media-queries)
 
+[Responsive Images](#responsive-images)
+
 [Resources](#resources)
 
 ---
@@ -360,6 +362,24 @@ Two ways to think about making responsive designs. "No matter what you decide, a
 2. Group current references together regardless of manufacturer and narrow down similar widths
 
 3. Design based on content: once desired layout breaks, make a media query to adjust layout.
+
+---
+
+### Responsive Images
+
+When to use responsive images: 3 Use Cases
+
+1. Resolution Switching - Decrease image resolution on smaller screen
+
+Using this technique, users that are viewing a responsive web page on a smaller screen will not have to rely on the network download of a larger image.
+
+2. Density Switching - Half the image resolution on @1x screen (low-res)
+
+Rely on pixel density available for the screen; amount of pixels found on an inch - high-res vs low-res
+
+3. Art Direction - Different image on smaller screen
+
+Image details are preserved, but the image is different
 
 ---
 

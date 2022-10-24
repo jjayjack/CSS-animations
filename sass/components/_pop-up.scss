@@ -22,9 +22,6 @@
 		opacity: 0;
 		transform: translate(-50%, -50%) scale(0.2);
 		transition: all 0.5s 0.2s;
-
-		@include respond(tablet-landscape) {
-		}
 	}
 
 	&__left {
