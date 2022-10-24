@@ -9,7 +9,9 @@
 			margin-bottom: $gutter-vertical-small;
 		}
 	}
-
+	@include respond(tablet-landscape) {
+		max-width: 100rem;
+	}
 	@include respond(tablet-portrait) {
 		max-width: 50rem;
 		padding: 0 3rem;
