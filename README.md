@@ -400,3 +400,5 @@ Image details are preserved, but the image is different
 6. [Custom Easing Function Tester](https://cubic-bezier.com)
 
 7. [Sizzy - online Response Testing](https://sizzy.co)
+
+8. [Can I Use ?](https://caniuse.com/)
