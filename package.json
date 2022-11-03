@@ -4,7 +4,10 @@
 	"description": "Landing page for Natours Project; Advanced CSS and Sass with Jonas Schmedtmann",
 	"main": "index.js",
 	"scripts": {
-		"compile:sass": "node-sass sass/main.scss css/style.css -w"
+		"watch:sass": "node-sass sass/main.scss css/style.css -w",
+		"compile:sass": "node-sass sass/main.scss css/style.comp.css",
+		"concat:css": "concat -o css/style.concat.css css/styles.linea.css css/style.comp.css",
+		"prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css"
 	},
 	"repository": {
 		"type": "git",
@@ -21,6 +24,7 @@
 	},
 	"homepage": "https://github.com/jjayjack/CSS-animations#readme",
 	"devDependencies": {
+		"concat": "^1.0.3",
 		"node-sass": "^7.0.3"
 	}
 }
