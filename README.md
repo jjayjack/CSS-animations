@@ -367,6 +367,8 @@ Two ways to think about making responsive designs. "No matter what you decide, a
 
 ### Responsive Images
 
+**Goal of response images** is to serve the _right image_ to the _right screen size_ and device.
+
 When to use responsive images: 3 Use Cases
 
 1. Resolution Switching - Decrease image resolution on smaller screen
